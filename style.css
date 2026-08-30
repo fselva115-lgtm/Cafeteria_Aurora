@@ -1,0 +1,91 @@
+nav a {
+  text-decoration: none;
+  color: rgb(82, 18, 37);
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.titulo {
+  color: rgb(204, 85, 121);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+.subtitulo {
+  color: rgb(129, 72, 99);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: overline;
+  text-align: center;
+}
+
+.menu {
+  color: rgb(204, 85, 121);
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.cafe,
+.cha,
+.suco,
+.sobremesa {
+  color: rgb(129, 72, 99);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+.lista {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+nav a:hover {
+  color: rgb(255, 3, 99);
+  font-size: 19px;
+  text-decoration: underline;
+}
+section p {
+  color: rgb(129, 72, 99);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 19px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  font-weight: bold;
+}
+section h2 {
+  color: rgb(129, 72, 99);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+section a {
+  color: rgb(243, 202, 216);
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  background-color: rgba(202, 78, 115);
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+section a:hover {
+  color: rgb(112, 2, 44);
+  background-color: rgb(196, 98, 68);
+  font-size: 19px;
+}
+section img {
+  width: 40%;
+  height: auto;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
