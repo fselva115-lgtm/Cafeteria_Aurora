@@ -8,7 +8,7 @@ A Cafeteria Aurora é um projeto criado para praticar os fundamentos de **HTML e
 
 O objetivo foi colocar em prática os conhecimentos aprendidos durante os estudos e aprender, na prática, como estruturar e estilizar um site.
 
-## 📋 Páginas
+##  Páginas
 
 O projeto possui as seguintes páginas:
 
