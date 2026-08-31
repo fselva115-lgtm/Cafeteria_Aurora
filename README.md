@@ -55,4 +55,4 @@ Pretendo continuar evoluindo o projeto, incluindo:
 
 ---
 
-**Projeto desenvolvido para fins de estudo. ☕💗**
+**Projeto desenvolvido para fins de estudo. **
