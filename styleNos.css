@@ -1,4 +1,4 @@
-nav{
+nav {
   display: flex;
   justify-self: center;
   gap: 30px;
@@ -10,11 +10,11 @@ nav a {
   color: rgb(82, 18, 37);
   font-size: 22px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  flex-direction:row;
+  flex-direction: row;
   padding: 0.5rem 0.7rem;
 }
 
- a:hover{
+a:hover {
   color: rgb(204, 120, 152);
   background-color: azure;
   padding: 0.5rem 0.7rem;
@@ -66,7 +66,7 @@ footer {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
- @media (max-width: 900px) {
+@media (max-width: 800px) {
   .nos {
     grid-template-columns: 1fr;
     margin: 0;
@@ -90,13 +90,13 @@ footer {
     display: block;
     margin-bottom: 3rem;
   }
-  nav{
+  nav {
     gap: 4px;
   }
- }
+}
 
 @media (max-width: 612px) {
-   .nos p {
+  .nos p {
     margin: 2rem auto;
     font-size: 0.8rem;
     text-align: center;
@@ -105,18 +105,17 @@ footer {
   .nos h2 {
     font-size: 1.2rem;
   }
-  .titulo2 { 
+  .titulo2 {
     font-size: 1.2rem;
   }
 
-  nav a{
+  nav a {
     font-size: 0.8rem;
     padding: auto;
     display: flex;
     flex-wrap: wrap;
   }
-  footer{
+  footer {
     padding: 1rem 1rem;
   }
 }
-
