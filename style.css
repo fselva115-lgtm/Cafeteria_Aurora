@@ -86,7 +86,7 @@ section {
   align-items: center;
 }
 
-  @media (max-width: 1500px) {
+  @media (max-width: 1000px) {
   .banner {
     grid-template-columns: 1fr;
     margin: 0;
