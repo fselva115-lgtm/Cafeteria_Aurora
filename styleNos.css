@@ -1,0 +1,122 @@
+nav{
+  display: flex;
+  justify-self: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(82, 18, 37);
+  font-size: 22px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  flex-direction:row;
+  padding: 0.5rem 0.7rem;
+}
+
+ a:hover{
+  color: rgb(204, 120, 152);
+  background-color: azure;
+  padding: 0.5rem 0.7rem;
+  border-radius: 4px;
+}
+.nos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  margin: 5rem;
+}
+.titulo2 {
+  color: rgb(129, 72, 99);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+.nos p {
+  color: rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: normal;
+  line-height: 2;
+  max-width: 95%;
+}
+
+.nos img {
+  object-fit: cover;
+  height: 100%;
+  display: block;
+  max-width: 80%;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.nos h2 {
+  margin-bottom: 1%;
+  text-align: center;
+  margin-top: 0;
+  font-size: 2rem;
+}
+footer {
+  background-color: rgb(129, 72, 99);
+  color: rgb(243, 202, 216);
+  text-align: center;
+  margin-top: 5rem;
+  padding: 1rem 1.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+ @media (max-width: 1900px) {
+  .nos {
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
+  .nos p {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    width: auto;
+  }
+  .nos h2 {
+    font-size: 2rem;
+  }
+  .nos a {
+    font-size: 1rem;
+  }
+  .nos img {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 3rem;
+  }
+  nav{
+    gap: 4px;
+  }
+ }
+
+@media (max-width: 612px) {
+   .nos p {
+    margin: 2rem auto;
+    font-size: 0.8rem;
+    text-align: center;
+    width: 100%;
+  }
+  .nos h2 {
+    font-size: 1.2rem;
+  }
+  .titulo2 { 
+    font-size: 1.2rem;
+  }
+
+  nav a{
+    font-size: 0.8rem;
+    padding: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer{
+    padding: 1rem 1rem;
+  }
+}
+

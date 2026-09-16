@@ -1,0 +1,118 @@
+nav {
+  display: flex;
+  justify-self: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(82, 18, 37);
+  font-size: 22px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  flex-direction: row;
+  padding: 0.5rem 0.7rem;
+}
+
+a:hover {
+  color: rgb(204, 120, 152);
+  background-color: azure;
+  padding: 0.5rem 0.7rem;
+  border-radius: 4px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(77, 35, 55);
+  font-weight: bold;
+  align-items: center;
+}
+form input {
+  width: 10%;
+  height: auto;
+  padding: 0.3%;
+  border-radius: 10px;
+  border: 1px solid rgb(204, 85, 121);
+}
+form textarea {
+  width: 10%;
+  height: auto;
+  padding: 0.5%;
+  border-radius: 10px;
+  border: 1px solid rgb(204, 85, 121);
+}
+form button {
+  height: auto;
+  font-size: 20px;
+  background-color: rgb(243, 202, 216);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 2%;
+}
+form button:hover {
+  background-color: rgba(202, 78, 115);
+  color: rgb(243, 202, 216);
+  font-size: 19px;
+  transform: scale(1);
+}
+
+.num {
+  text-align: center;
+}
+.num p {
+  margin: 0.4%;
+}
+footer {
+  background-color: rgb(129, 72, 99);
+  color: rgb(243, 202, 216);
+  text-align: center;
+  margin-top: 5rem;
+  padding: 1rem 1.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+@media (max-width: 612px) {
+    h1{
+    margin: 2rem auto;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  form {
+    font-size: 1rem;
+  }
+  form input{
+    padding: 0.1rem 4rem;
+  }
+  form textarea{
+    padding: 0.1rem 4rem;
+  }
+ form button{
+    font-size: 0.8rem;
+    padding: 0.2rem 2rem;
+    text-align: center;
+  }
+  .num h2{
+    margin: 2rem auto;
+    font-size: 1rem;
+    text-align: center;
+  }
+.num p{
+  font-size: 0.9rem;
+}
+
+  nav a{
+    font-size: 0.8rem;
+    padding: 0.1rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer{
+    padding: 1rem 1rem;
+  }
+}
