@@ -30,7 +30,6 @@ a:hover {
 .h2 {
   color: rgb(129, 72, 99);
   font-family: Georgia, "Times New Roman", Times, serif;
-  display: center;
   text-align: center;
   margin: 60px 0;
   background-color: rgba(250, 230, 216, 0.445);
@@ -100,12 +99,12 @@ footer {
 
 @media (max-width: 612px) {
   .lista li {
-    margin: 0 auto;
     padding: 0.5rem;
     font-size: 0.8rem;
     text-align: center;
-    margin: 0 auto;
-    width: 10ch;
+    align-items: center;
+    max-width: 8ch;
+    margin-right: 2rem;
   }
   .lista span{
     font-size: 0.8rem;
