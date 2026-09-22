@@ -95,7 +95,7 @@ footer {
   }
 }
 
-@media (max-width: 612px) {
+@media (max-width: 650px) {
   .nos p {
     margin: 2rem auto;
     font-size: 0.8rem;

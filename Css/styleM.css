@@ -97,7 +97,7 @@ footer {
   border-radius: 5px;
 }
 
-@media (max-width: 612px) {
+@media (max-width: 650px) {
   .lista li {
     padding: 0.5rem;
     font-size: 0.8rem;

@@ -118,7 +118,7 @@ section {
   }
 }
 
-@media (max-width: 612px) {
+@media (max-width: 650px) {
   .banner p {
     margin: 2rem auto;
     font-size: 1rem;
